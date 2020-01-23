@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- MANIFEST-->
+      <link rel="manifest" href="manifest.json">
+    <!-- APPLE ICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>PWA - DEMO - TEST</title>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="app-body">
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Web App - Cached</span>
+    </nav>
+    <main>
+      <div id="body-content" class="container">
+        <button class="btn btn-primary" id="load-notes">Load Notes</button>
+        <button class="btn btn-primary" id="add-note">Add Note</button>
+      </div>
+      <div id="notes-area" class="notes-display"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
